@@ -1,5 +1,5 @@
 # Minesweeper
-The game minesweepre
+The game Minesweeper
 
 
 To play simply clone and launch index.html
