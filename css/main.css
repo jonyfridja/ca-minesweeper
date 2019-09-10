@@ -1,0 +1,117 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+.header div {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.header li {
+  width: 34%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.board {
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  position: relative;
+  float: left;
+  height: 40px;
+  width: 40px;
+  background-color: #cf82ff;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+.revealed {
+  background-color: #8453a3;
+}
+
+.exploded {
+  background-color: #ff5d2d;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.replay {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.emoji {
+  padding: 5px;
+  font-size: 2em;
+}
+
+.emoji:active {
+  background-color: rgba(236, 236, 236, 0.8);
+}
+
+.diff {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.diff li:hover {
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.diff .selected {
+  background-color: #fff;
+  color: black;
+}
+
+.turned {
+  transform: rotate(180deg);
+  animation: 2s;
+}

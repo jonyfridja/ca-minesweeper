@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minesweepers</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body onload="initGame()">
+    <h2>Minesweeper</h2>
+    <h3 class="high-score"></h3>
+    <div class="header">
+        <div class="flex">
+            <div class="timer">--:--</div>
+            <div class="life">Lives Left: <span>3</span></div>
+        </div>
+        <div class="flex">
+            <div onclick="initGame()" class="emoji">
+                🙂
+            </div>
+        </div>
+        <div class="diff">
+        </div>
+    </div>
+    <div class="board"></div>
+    <div class="replay" onclick="initGame()">Retry?</div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
