@@ -1,9 +1,9 @@
-#Minesweeper
+# Minesweeper
 The game minesweepre
 
 
-[App on heroku](https://ca-minesweeper.herokuapp.com/)
+To play simply clone and launch index.html
 
-#Usage
+# Usage
 This is a part of a portfolio, 
 
